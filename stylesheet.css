@@ -1,0 +1,159 @@
+body {
+  font-family: "Lato", sans-serif;
+  font-size: 17px;
+  margin: 0;
+  padding: 0;
+}
+
+
+.header {
+  position: fixed;
+  top: 0;
+  z-index: 100;
+  width: 100%;
+  line-height: 0;
+  color:  #071C4D;
+  background: #F3F3F3;
+  background:rgba(214,220,235, .8);
+}
+
+.header-logo {
+  float: left;
+  font-weight: bold;
+  font-size: 30px;
+  padding:20px 40px;
+  margin-top:20px;
+}
+
+header ul{
+	float: right;
+}
+
+header ul li{
+	display: inline-block;
+}
+
+header ul li a{
+	padding: 25px 20px;
+	display: inline-block;
+}
+
+header ul li a:hover{
+	background-color:grey;
+	color:#fff;
+	cursor: pointer;
+    transition: .25s all;
+}
+
+.container{
+  width: 1170px;
+ padding: 0 15px;
+ margin: 0 auto;
+}
+
+.banner{
+  padding: 180px 0 100px 0;
+  background-size: cover;
+  color: white;
+  text-align: center;
+  background-image: url(background.jpg);
+
+  .tombol{
+    margin: 10px 0;
+    background-color: #239b76;
+  }
+
+}
+
+.intro{
+  float: center;
+  padding: auto;
+  font-size: 1.25em;
+  text-align: center;
+  color: white;
+  line-height: 1.618em;
+
+}
+
+
+.banner h1{
+  padding-top:170px;
+  padding-bottom:40px;
+  margin: 0 0 50px;
+  font-size: 2em;
+}
+
+
+.banner p {
+  margin: 0 0 50px;
+
+}
+
+.button {
+  padding: 10px 30px;
+  background: #FF4F33;
+  color: #fff;
+  border-radius: 20px;
+  box-shadow: 0 2px 2px 2px rgba(0, 0, 0, .05);
+}
+
+.button:hover {
+  background: #2ebf91;
+}
+.lesson-wrapper {
+  height: 700px;
+  padding-bottom: 80px;
+  background-color: #f7f7f7;
+  text-align: center;
+}
+
+.heading {
+  padding-top: 60px;
+  padding-bottom: 30px;
+  color: #5f5d60;
+}
+
+.heading h2 {
+  font-weight: normal;
+}
+
+.lesson {
+  float: left;
+  width: 25%;
+}
+
+.lesson-icon {
+  position: relative;
+
+}
+
+.lesson-icon p {
+  position: absolute;
+  top: 90px;
+  width: 100%;
+  color: white;
+}
+
+.txt-contents {
+  width: 80%;
+  display: inline-block;
+  margin-top: 20px;
+  font-size: 15px;
+  color: #b3aeb5;
+}
+
+.heading h3 {
+  font-weight: normal;
+}
+
+.btn {
+  padding: 10px 30px;
+  background: #FF4F33;
+  color: #fff;
+  border-radius: 20px;
+  box-shadow: 0 2px 2px 2px rgba(0, 0, 0, .05);
+}
+
+.btn:hover {
+  background: #FF4F33;
+}
